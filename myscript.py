@@ -1,1 +1,1 @@
-print('Hello, Welcome to Data Analytics!')
+print('Hello, Welcome to Data Analytics Class!')
