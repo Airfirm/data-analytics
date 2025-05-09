@@ -9,9 +9,8 @@ A good byline could be used in every Python analytics project we do.
 
 Author: Oluwafemi Salawu
 
-TODO: Change the module name in this opening docstring to use your name instead of case. 
-TODO: Change the author in this opening docstring to your name or alias. 
-TODO: Remove these TODOS after you have completed them.
+Date: 2025-05-09
+Copyright (c) 2023 Oluwafemi Salawu
 """
 
 #####################################
@@ -30,30 +29,30 @@ import statistics
 
 # declare a boolean variable (has a value True or False)
 # TODO: Add another or replace this with your own boolean variable
-has_international_clients: bool = True
+has_international_clients: bool = False
 
 # declare an integer variable 
 # TODO: Add or replace this with your own integer variable
-years_in_operation: int = 10
+years_in_operation: int = 7
 
 # declare a floating point variable
 # TODO: Add or replace this with your own floating point variable
-average_client_satisfaction: float = 4.7
+average_client_satisfaction: float = 5.6
 
 # declare a list of strings
 # TODO: Add or replace this with your own list  
-skills_offered: list = ["Data Analysis", "Machine Learning", "Business Intelligence"]
+skills_offered: list = ["Data Analytics Engineer", "BI Developer", "Business Technology Product Manager"]
 
 # declare a list of numbers so we can illustrate statistics skills
 # TODO: Add or replace this with your own numeric list  
-client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
+client_satisfaction_scores: list = [45.5, 54.2, 25.1, 16.9, 70.3]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
 # TODO: Replace these variable names with the variable name of your own numeric list
-min_score: float = min(client_satisfaction_scores)  
-max_score: float = max(client_satisfaction_scores)  
-mean_score: float = statistics.mean(client_satisfaction_scores)  
-stdev_score: float = statistics.stdev(client_satisfaction_scores)
+minimum_score: float = min(client_satisfaction_scores)  
+maximum_score: float = max(client_satisfaction_scores)  
+the_mean_score: float = statistics.mean(client_satisfaction_scores)  
+standard_deviation_score: float = statistics.stdev(client_satisfaction_scores)
 
 # Use a Python formatted string (f-string) to show information
 # TODO: Modify the text in the byline to fit your information
@@ -66,10 +65,10 @@ Has International Clients:  {has_international_clients}
 Years in Operation:         {years_in_operation}
 Skills Offered:             {skills_offered}
 Client Satisfaction Scores: {client_satisfaction_scores}
-Minimum Satisfaction Score: {min_score}
-Maximum Satisfaction Score: {max_score}
-Mean Satisfaction Score: {mean_score:.2f}
-Standard Deviation of Satisfaction Scores: {stdev_score:.2f}
+Minimum Satisfaction Score: {minimum_score}
+Maximum Satisfaction Score: {maximum_score}
+Mean Satisfaction Score: {the_mean_score:.2f}
+Standard Deviation of Satisfaction Scores: {standard_deviation_score:.2f}
 """
 
 #####################################
