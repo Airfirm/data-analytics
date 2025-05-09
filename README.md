@@ -31,7 +31,7 @@ import statistics
 
 # declare a boolean variable (has a value True or False)
 # TODO: Add another or replace this with your own boolean variable
-has_international_clients: bool = False
+had_international_clients: bool = False
 
 # declare an integer variable 
 # TODO: Add or replace this with your own integer variable
@@ -43,7 +43,7 @@ average_client_satisfaction: float = 5.6
 
 # declare a list of strings
 # TODO: Add or replace this with your own list  
-skills_offered: list = ["Data Analytics Engineer", "BI Developer", "Business Technology Product Manager"]
+skills_required: list = ["Data Analytics Engineer", "BI Developer", "Business Technology Product Manager"]
 
 # declare a list of numbers so we can illustrate statistics skills
 # TODO: Add or replace this with your own numeric list  
@@ -61,16 +61,16 @@ standard_deviation_score: float = statistics.stdev(client_satisfaction_scores)
 # TODO: Modify the variables in the byline to use your variable names
 byline: str = f"""
 ---------------------------------------------------------
-Stellar Analytics: Delivering Professional Insights
+Data Analytics: Delivering Professional Insights To Foster Decison-Making
 ---------------------------------------------------------
-Has International Clients:  {has_international_clients}
-Years in Operation:         {years_in_operation}
-Skills Offered:             {skills_offered}
-Client Satisfaction Scores: {client_satisfaction_scores}
-Minimum Satisfaction Score: {minimum_score}
-Maximum Satisfaction Score: {maximum_score}
-Mean Satisfaction Score: {the_mean_score:.2f}
-Standard Deviation of Satisfaction Scores: {standard_deviation_score:.2f}
+Ever Had An International Clients:  {had_international_clients}
+Number Of Years in Operation:         {years_in_operation}
+Skills Required:             {skills_required}
+Satisfaction Scores: {client_satisfaction_scores}
+Lowest Satisfaction Score: {minimum_score}
+Highest Satisfaction Score: {maximum_score}
+Mean Score: {the_mean_score:.2f}
+Standard Deviation Scores: {standard_deviation_score:.2f}
 """
 
 #####################################
